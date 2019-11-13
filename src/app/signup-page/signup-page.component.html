@@ -1,1 +1,54 @@
-<p>signup-page works!</p>
+<div class="jumbotron">
+  <div class="d-flex justify-content-center h-100">
+    <div class="card">
+      <div class="card-header">
+        <h3>Sign Up</h3>
+
+      </div>
+      <div class="card-body">
+        <form>
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Name</span>
+            </div>
+            <input type="text" class="form-control" placeholder=" please enter Full Name">
+
+          </div>
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Email</span>
+            </div>
+            <input type="password" class="form-control" placeholder="Please enter Email Id">
+          </div>
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Phone No</span>
+            </div>
+            <input type="password" class="form-control" placeholder="Mobile Number">
+          </div>
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">User Name</span>
+            </div>
+            <input type="password" class="form-control" placeholder="Please enter User Name">
+          </div>
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Password</span>
+            </div>
+            <input type="password" class="form-control" placeholder="Password">
+          </div>
+          <div class="form-group">
+
+          </div>
+
+        </form>
+        <button class="signup_btn float-right" [routerLink]="['/home']">Sign Up</button>
+        <!--<input type="submit" onclick="onSignupButtonclicked()" value="SingUp" class="btn float-right login_btn"> -->
+      </div>
+      <div class="card-footer">
+
+      </div>
+    </div>
+  </div>
+</div>
